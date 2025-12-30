@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "universityName": "Harvard University",
+    "universityLogo": "https://i.ibb.co/harvard-logo.png",
+    "scholarshipCategory": "Merit-Based",
+    "location": {
+      "country": "United States",
+      "city": "Cambridge, Massachusetts"
+    },
+    "applicationDeadline": "2025-03-31",
+    "subjectName": "Computer Science",
+    "scholarshipDescription": "This merit-based scholarship supports outstanding students pursuing undergraduate or graduate studies in Computer Science at Harvard University.",
+    "stipend": "$2,000 per month",
+    "postDate": "2025-01-10",
+    "serviceCharge": "$50",
+    "applicationFees": "$75",
+    "applyButtonText": "Apply Scholarship"
+  },
+  {
+    "id": 2,
+    "universityName": "University of Oxford",
+    "universityLogo": "https://i.ibb.co/oxford-logo.png",
+    "scholarshipCategory": "Need-Based",
+    "location": {
+      "country": "United Kingdom",
+      "city": "Oxford"
+    },
+    "applicationDeadline": "2025-04-15",
+    "subjectName": "Business Administration",
+    "scholarshipDescription": "A need-based scholarship designed to assist international students with limited financial resources studying Business Administration at Oxford.",
+    "stipend": "£1,500 per month",
+    "postDate": "2025-01-18",
+    "serviceCharge": "£40",
+    "applicationFees": "£60",
+    "applyButtonText": "Apply Scholarship"
+  },
+  {
+    "id": 3,
+    "universityName": "University of Toronto",
+    "universityLogo": "https://i.ibb.co/toronto-logo.png",
+    "scholarshipCategory": "International Students",
+    "location": {
+      "country": "Canada",
+      "city": "Toronto"
+    },
+    "applicationDeadline": "2025-05-10",
+    "subjectName": "Electrical Engineering",
+    "scholarshipDescription": "This scholarship is offered to international students demonstrating academic excellence in Electrical Engineering programs.",
+    "stipend": "CAD 1,800 per month",
+    "postDate": "2025-02-01",
+    "serviceCharge": "CAD 30",
+    "applicationFees": "CAD 90",
+    "applyButtonText": "Apply Scholarship"
+  },
+  {
+    "id": 4,
+    "universityName": "University of Melbourne",
+    "universityLogo": "https://i.ibb.co/melbourne-logo.png",
+    "scholarshipCategory": "Research-Based",
+    "location": {
+      "country": "Australia",
+      "city": "Melbourne"
+    },
+    "applicationDeadline": "2025-06-01",
+    "subjectName": "Medical Science",
+    "scholarshipDescription": "A research-focused scholarship supporting postgraduate students in Medical Science research programs.",
+    "stipend": "AUD 2,200 per month",
+    "postDate": "2025-02-12",
+    "serviceCharge": "AUD 60",
+    "applicationFees": "AUD 100",
+    "applyButtonText": "Apply Scholarship"
+  },
+  {
+    "id": 5,
+    "universityName": "Technical University of Munich",
+    "universityLogo": "https://i.ibb.co/tum-logo.png",
+    "scholarshipCategory": "Government Funded",
+    "location": {
+      "country": "Germany",
+      "city": "Munich"
+    },
+    "applicationDeadline": "2025-04-30",
+    "subjectName": "Artificial Intelligence",
+    "scholarshipDescription": "A government-funded scholarship for international students pursuing advanced studies in Artificial Intelligence.",
+    "stipend": "€1,200 per month",
+    "postDate": "2025-01-28",
+    "serviceCharge": "Free",
+    "applicationFees": "Free",
+    "applyButtonText": "Apply Scholarship"
+  },
+  {
+    "id": 6,
+    "universityName": "National University of Singapore",
+    "universityLogo": "https://i.ibb.co/nus-logo.png",
+    "scholarshipCategory": "Fully Funded",
+    "location": {
+      "country": "Singapore",
+      "city": "Singapore"
+    },
+    "applicationDeadline": "2025-03-20",
+    "subjectName": "Data Science",
+    "scholarshipDescription": "A fully funded scholarship covering tuition, living expenses, and research costs for Data Science students.",
+    "stipend": "SGD 2,000 per month",
+    "postDate": "2025-01-05",
+    "serviceCharge": "SGD 50",
+    "applicationFees": "SGD 50",
+    "applyButtonText": "Apply Scholarship"
+  }
+]

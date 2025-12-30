@@ -4,6 +4,7 @@ import Stats from "./HomeSection/Stats";
 import Hero from "./HomeSection/Hero";
 import HowWeWork from "./HomeSection/HowWeWork";
 import StartNewJourney from "./HomeSection/StartNewJourney";
+import ScholarshipSection from "./HomeSection/ScholarshipSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
 
       {/* Stat section */}
       <Stats />
+
+      {/* scholarship */}
+      <ScholarshipSection />
 
       {/*How scholarhub work */}
       <HowWeWork />

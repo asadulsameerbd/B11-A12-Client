@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router";
 import Button from "../Common/button";
 import "./navbar.css";
 import logo from "../../assets/icon/logo.png";
+import UseAuth from "../../Hook/UseAuth";
 
 const menuItems = [
   { name: "Home", path: "/" },
@@ -13,6 +14,25 @@ const menuItems = [
 
 const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
+  const { user } = UseAuth();
+
+  // user info before/after info
+  const userInfo = (
+    <>
+      {user ? (
+        <div className="avatar w-10">
+          <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+            <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+          </div>
+        </div>
+      ) : (
+        <span className="hidden md:flex gap-5">
+          <button className="btn">sign in</button>
+          <Button>Get Started</Button>
+        </span>
+      )}
+    </>
+  );
 
   return (
     <div className="navbar nav-sticky bg-[#D8DEE8b3] backdrop-blur-xl shadow-sm px-4 py-2 sticky top-0 z-50 ">
@@ -46,10 +66,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end flex items-center space-x-2">
-        <span className="hidden md:flex gap-5">
-          <button className="btn">sign in</button>
-          <Button>Get Started</Button>
-        </span>
+        <div className="hidden md:flex">{userInfo}</div>
 
         {/* Hamburger for mobile */}
         <div className="md:hidden">
@@ -96,10 +113,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="flex gap-5 pl-5">
-            <button className="btn">sign in</button>
-            <Button>Get Started</Button>
-          </div>
+          <div className="ml-8">{userInfo}</div>
         </div>
       )}
     </div>
